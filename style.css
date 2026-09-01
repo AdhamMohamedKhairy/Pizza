@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Bitcount+Prop+Single:wght@100..900&display=swap');
+
+@font-face {
+    font-family: 'Determination Mono';
+    src: url('path/to/DeterminationMono.woff2') format('woff2'),
+        url('path/to/DeterminationMono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Determination Mono', monospace;
+    background-color: #09091e;
+    color: rgb(250, 214, 180);
+    background-image: 
+    radial-gradient(2px 2px at 600px 30px, rgb(253, 236, 219), rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 400px 100px, rgb(253, 236, 219), rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 280px 150px, rgb(253, 236, 219), rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 300px 180px, rgb(253, 236, 219), rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 400px 200px, rgb(253, 236, 219), rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 600px 150px, rgb(253, 236, 219), rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 500px 130px, rgb(253, 236, 219), rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 750px 280px, rgb(253, 236, 219), rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 300px 180px, rgb(253, 236, 219), rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 500px 80px, rgb(253, 236, 219), rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 100px 100px, rgb(253, 236, 219), rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 360px 700px, rgb(253, 236, 219), rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 500px 500px, rgb(253, 236, 219), rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 300px 600px, rgb(253, 236, 219), rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 500px 500px, rgb(253, 236, 219), rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 400px 600px, rgb(253, 236, 219), rgba(0,0,0,0));
+    background-repeat: repeat;
+    background-size: 1000px 400px;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1{
+    font-family: "Bitcount Grid Double", system-ui;
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 0;
+    margin: 30px 0 0 0;
+}
+
+h2{
+    font-family: "Bitcount Prop Single", system-ui;
+    font-size: 1.5rem;
+    color: rgb(139, 130, 119);
+    text-align: center;
+    margin: 0 0 15px 0;
+}
+
+h3{
+    font-family: "Bitcount Prop Single", system-ui;
+    font-size: 1.5rem;
+    color: rgb(15, 27, 56);
+    text-align: center;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto 20px auto;
+    color: #09091e;
+    background-color: rgb(241, 180, 105);
+    padding: 15px;
+    border-radius: 15px;
+    border: #09091e 2px solid;
+    max-width: 600px;
+    box-shadow: 0 0 7px 0 #d2d2f8;
+}
+
+img{
+    max-width: 600px;
+    margin: auto;
+}
