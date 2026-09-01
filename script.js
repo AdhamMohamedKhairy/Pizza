@@ -11,12 +11,12 @@ renderer.setSize(600, 600)
 
 const loader = new THREE.TextureLoader()
 const texture = [
-    loader.load('/images/ne.jpg'),
-    loader.load('/images/dd.jpg'),
-    loader.load('/images/eg.jpg'),
-    loader.load('/images/ny.jpg'),
-    loader.load('/images/rd.jpg'),
-    loader.load('/images/se.jpg')
+    loader.load('./images/ne.jpg'),
+    loader.load('./images/dd.jpg'),
+    loader.load('./images/eg.jpg'),
+    loader.load('./images/ny.jpg'),
+    loader.load('./images/rd.jpg'),
+    loader.load('./images/se.jpg')
 ]
 
 const materials = texture.map(tex => new THREE.MeshPhongMaterial({ map: tex }))
