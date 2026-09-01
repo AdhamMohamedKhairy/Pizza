@@ -77,3 +77,22 @@ img{
     max-width: 600px;
     margin: auto;
 }
+
+.green{
+    color: green;
+}
+
+.white{
+    color: white;
+}
+
+.red{
+    color: red;
+}
+
+canvas{
+    width: 600px;
+    height: 600px;
+    max-width: 95vw;
+    z-index: 10;
+}
